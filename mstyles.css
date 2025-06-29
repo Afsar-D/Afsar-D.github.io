@@ -2,6 +2,9 @@
     body p{
         font-size: 2vh;
     }
+    .divi {
+        font-size: 3vh;
+    }
     nav {
         margin: 15px 0px;
 
@@ -27,11 +30,16 @@
     .sidebar {
         width: 100vw;
     }
+    .intro{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
 
     .intro div imG {
         height: 25vh;
         width: auto;
-        float: right;
     }
 
     .intro h3 {
@@ -39,6 +47,12 @@
         font-weight: 700px;
         font-size: 5vh;
     }
+    .gaming img {
+    height: 14vh;
+    width: 57vw;
+    object-fit: cover;
+    border-radius: 4em;
+}
 
     .links {
         display: grid;
@@ -46,7 +60,6 @@
         grid-template-rows: 1fr;
         justify-items: center;
         align-content: center;
-        gap: 50px;
         padding: 10vh;
     }
 
