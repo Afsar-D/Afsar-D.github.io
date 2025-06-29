@@ -1,0 +1,61 @@
+@media screen and (max-width: 1000px) {
+    body p{
+        font-size: 2vh;
+    }
+    nav {
+        margin: 15px 0px;
+
+    }
+
+    nav ul {
+        width: 85vw;
+
+    }
+
+    nav li {
+        height: 9vh;
+
+    }
+    .showOnMobile{
+        display:block ;
+    }
+
+    .hideOnMobile {
+        display: none;
+    }
+
+    .sidebar {
+        width: 100vw;
+    }
+
+    .intro div imG {
+        height: 25vh;
+        width: auto;
+        float: right;
+    }
+
+    .intro h3 {
+        margin: 3vw;
+        font-weight: 700px;
+        font-size: 5vh;
+    }
+
+    .links {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-content: center;
+        gap: 50px;
+        padding: 10vh;
+    }
+
+    .lanBox div img {
+        padding: 5px;
+        border: 2px solid grey;
+        height: 7vh;
+        border-radius: 30px;
+
+    }
+
+}
